@@ -1,3 +1,31 @@
-.container{
+body {
+    background-color: white;
+    color: black;
+}
+
+.container {
     margin-bottom: 50px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(33, 108, 93, 0.2), 0 6px 20px 0 rgba(76, 7, 82, 0.19);
+}
+
+.contract {
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.fa-brands{
+    padding: 5px;
+}
+
+.section{
+    margin-top: 20px;
+}
+
+.mail-box{
+    border-radius: 10px;
 }

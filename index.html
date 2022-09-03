@@ -5,15 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Mafuz</title>
+    <title>Mafuz</title>
+
+    <!--Bootstrap Link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+
+
+
+
+    <!--Script for Font Awesome Icon-->
+    <script src="https://kit.fontawesome.com/b3e3482d82.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-
+    <!--Navbar Code start-->
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
@@ -26,25 +35,28 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">About Us</a>
-                        <a class="nav-link" href="#">Service</a>
-                        <a class="nav-link" href="#">Contact US</a>
+                        <a class="nav-link" href="#service">Service</a>
+                        <a class="nav-link" href="#about_us">About Us</a>
+                        <a class="nav-link" href="#contact">Contact US</a>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
                     </div>
                 </div>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </nav>
     </div>
+    <!--Navbar Code end-->
 
 
+    <!--Home Code start-->
     <div class="container home">
         <div class="row align-items-center">
             <div class="col-md-7">
-                <h3>A world class software developer</h3>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cumque perspiciatis delectus voluptatibus, fuga illo adipisci doloremque enim a et?
+                <h3>A world class Software developer</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cumque perspiciatis delectus voluptatibus,
+                fuga illo adipisci doloremque enim a et?
             </div>
             <div class="col-md-5">
                 <img src="images/1st.png" alt="">
@@ -54,7 +66,87 @@
 
 
 
+    <div class="container" id="service">
+        <h2 class="container text-center">Our Service</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/service/work-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Android App Development</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/service/work-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">This is a short card.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/service/work-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Development</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+    <div class="container" id="about_us">
+        <div class="row align-items-center">
+            <div class="col-md-5">
+                <img class="img-fluid" src="images/2nd.png" alt="">
+            </div>
+            <div class="col-md-7">
+                <h3>A world class Software developer</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cumque perspiciatis delectus voluptatibus,
+                fuga illo adipisci doloremque enim a et?
+            </div>
+        </div>
+    </div>
+
+
+    <h4 class="text-center">Contact</h4>
+
+    <div class="container contract" id="contact">
+        <div class="row text-center">
+
+            <div class="section col-md-4">
+                <h5>Link</h5>
+                <a target="_blank" href="https://www.facebook.com/official.mafuz.alam"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a target="_blank" href="https://twitter.com/official_mafuz"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a target="_blank" href="https://www.instagram.com/official.mafuz.alam"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                <a target="_blank" href="https://www.youtube.com/YourEXGamer"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/mafuzalam885"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="https://officialmafuz.wordpress.com/"><i class="fa-solid fa-blog fa-2x"></i></a>
+            </div>
+
+            <div class="section col-md-4">
+                <h5>Subscribe for big deal</h5>
+                <input type="email" placeholder="Email" class="mail-box">
+                <button type="button" class="btn btn-success">Success</button>
+            </div>
+
+            <div class="section col-md-4">
+                <h5>Address</h5>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa-sharp fa-solid fa-location-dot"></i>Dhaka, Bangladesh</li>
+                    <li><i class="fa-li fa-solid fa-phone"></i>+8801747503257</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
 
 
 
